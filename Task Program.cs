@@ -10,6 +10,7 @@ class TaskProgram
     static void Main()
     {
       EngineTests.RunAll();
+      return;
       //Remeber to add processes.cvs data here//
       int choice = 0;
       Console.WriteLine("Hello, welcome to the CPU Task Schedluling Program");
@@ -51,20 +52,22 @@ class TaskProgram
 
 static void FCFS()
   {
-    runSimulation();
+    RunSimulation(new FcfsScheduler());
   }
 
 static void Priority()
   {
-    runSimulation();
+    RunSimulation(new PriorityScheduler());
   }
 
 static void RR()
   {
-    runSimulation();
+    Console.Write("Enter a Time Quantum: ");
+    int quantum = int.TryParse(Console.ReadLine(), out int q) && q > 0? q:4;
+    RunSimulation(new RoundRobinScheduler(quantum));
   }
 
- static void runSimulation(IScheduler scheduler)
+ static void RunSimulation(IScheduler scheduler)
   {
     
   }

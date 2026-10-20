@@ -1,0 +1,15 @@
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.AssemblyInfoInputs.cache
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.AssemblyInfo.cs
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.csproj.CoreCompileInputs.cache
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.sourcelink.json
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\bin\Debug\net10.0\CPU-Scheduling-Simulation.exe
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\bin\Debug\net10.0\CPU-Scheduling-Simulation.deps.json
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\bin\Debug\net10.0\CPU-Scheduling-Simulation.runtimeconfig.json
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\bin\Debug\net10.0\CPU-Scheduling-Simulation.dll
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\bin\Debug\net10.0\CPU-Scheduling-Simulation.pdb
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.dll
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\refint\CPU-Scheduling-Simulation.dll
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.pdb
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\CPU-Scheduling-Simulation.genruntimeconfig.cache
+C:\Users\tayta\OneDrive\Towson Folder\OS\CPU-Scheduling-Simulation\obj\Debug\net10.0\ref\CPU-Scheduling-Simulation.dll
