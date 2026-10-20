@@ -1,12 +1,16 @@
 using System;
-using System.IO.Pipelines;
+using System.Linq;
 using System.Collections.Generic;
-
+using System.Diagnostics;
+namespace CPUSchedulingSimulation;
 
 class TaskProgram
 {
+  static List<Process> _processes = new();
     static void Main()
     {
+      EngineTests.RunAll();
+      //Remeber to add processes.cvs data here//
       int choice = 0;
       Console.WriteLine("Hello, welcome to the CPU Task Schedluling Program");
       
@@ -43,4 +47,31 @@ class TaskProgram
 
   }
     
+
+
+static void FCFS()
+  {
+    runSimulation();
+  }
+
+static void Priority()
+  {
+    runSimulation();
+  }
+
+static void RR()
+  {
+    runSimulation();
+  }
+
+ static void runSimulation(IScheduler scheduler)
+  {
+    
+  }
+
+  static void printResults()
+  {
+    
+  }
+
 }
