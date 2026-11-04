@@ -9,27 +9,29 @@ public class PriorityScheduler : IScheduler
 
     public Process? PickNext(List<Process> readyQueue)
     {
+        Process best = null;
 
-        return null;
+        foreach (var p in readyQueue)
+        {
+            if (best == null || p.Priority < best.Priority)
+            {
+                best = p;
+            }
+        }
+
+        return best;
     }
 
     public bool ShouldPreempt(Process running, List<Process> readyQueue, int ticksUsedThisTurn)
     {
         foreach (var p in readyQueue)
         {
-            if (p.Priority< running.Priority)
+            if (p.Priority < running.Priority)
             {
                 return true;
             }
-           
         }
+
         return false;
     }
-
-
-
-
-
-
-
 }
