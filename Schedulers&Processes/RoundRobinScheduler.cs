@@ -8,6 +8,7 @@ namespace CPUSchedulingSimulation;
 public class RoundRobinScheduler : IScheduler
 {
     public string Name => "Round Robin";
+    
     private readonly int _quantum;
 
     public RoundRobinScheduler(int quantum)
@@ -18,13 +19,18 @@ public class RoundRobinScheduler : IScheduler
     public Process? PickNext(List<Process> readyQueue)
     {
 
-        return null;
+        if (readyQueue.Count == 0)
+        {
+            return null;
+        }
+
+        return readyQueue[0];
     }
 
     public bool ShouldPreempt(Process running, List<Process> readyQueue, int ticksUsedThisTurn)
     {
         
-        return false;
+        return ticksUsedThisTurn >= _quantum;
     }
 
 
