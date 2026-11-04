@@ -69,12 +69,24 @@ static void RR()
 
  static void RunSimulation(IScheduler scheduler)
   {
-    
+    var engine = new SimulationEngine(scheduler);
+
+    var processCopies = _processes.Select(p => p.Clone()).ToList();
+
+    var results = engine.Run(processCopies);
+
+    printResults(results, scheduler);
   }
 
-  static void printResults()
+  static void printResults(List<Process> results, IScheduler scheduler)
   {
+    Console.WriteLine($"\n*** {scheduler.Name} Scheduling ***\n");
     
+    Console.WriteLine("Process ID | Arrival Time | Burst Time | Priority | Completion Time | Turnaround Time | Waiting Time");
+    foreach (var p in results)
+    {
+      Console.WriteLine($"{p.Pid} | {p.ArrivalTime} | {p.BurstTime} | {p.Priority} | {p.CompletionTime} | {p.TurnaroundTime} | {p.WaitingTime}");
+    }
   }
 
 }
